@@ -123,9 +123,6 @@ function App() {
             <a href="https://www.instagram.com/1oneky1/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-purple-600 shadow-lg hover:scale-110 active:scale-95 transition-all">
               <FaInstagram size={20} />
             </a>
-            <a href="https://www.tiktok.com/@whenwherewhyidie" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-black shadow-lg hover:scale-110 active:scale-95 transition-all">
-              <FaTiktok size={18} />
-            </a>
             <div className="relative">
               {/* Chat Bubble for Pill */}
               <div className={`absolute -top-16 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 pointer-events-none ${copiedPill ? 'opacity-100 scale-100 -translate-y-2' : 'opacity-0 scale-95 translate-y-2'}`}>
@@ -146,6 +143,9 @@ function App() {
                 <FaDiscord size={20} />
               </button>
             </div>
+            <a href="https://www.tiktok.com/@whenwherewhyidie" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-black shadow-lg hover:scale-110 active:scale-95 transition-all">
+              <FaTiktok size={18} />
+            </a>
           </div>
 
           {/* Card Utama */}
